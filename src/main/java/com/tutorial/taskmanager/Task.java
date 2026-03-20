@@ -26,7 +26,11 @@ public class Task {
  public boolean isCompleted() { return completed; }
  public void setCompleted(boolean completed) {
  this.completed = completed;
- 
-
 }
+private String priority; // "LOW", "MEDIUM", "HIGH"
+ // Add getter and setter:
+ public String getPriority() { return priority; }
+ public void setPriority(String priority) {
+ this.priority = priority;
+ }
 }
